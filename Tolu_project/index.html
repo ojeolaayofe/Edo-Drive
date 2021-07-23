@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <nav>
+  <label class="logo">EDO-DRIVE</label>
+  <ul>
+    <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT US</a></li>
+    <li><a href="#">REGISTER</a></li>
+    <li><a href="login.html">LOGIN</a></li>
+    <!-- <li><a href="login.html">LOG-OUT</a></li> -->
+  </ul>
+</nav>
+<!-- <img class="img" src="edo.png" style="height: 200px;"> -->
+
+<div class="form_wrapper">
+  <img src="edo.png">
+  <div class="form_container">
+    <div class="title_container">
+      <h2>Registration Portal</h2>
+    </div>
+    <div class="row clearfix">
+      <div class="">
+        <form>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+            <input type="text" name="email" placeholder="First Name" required />
+          </div>
+           <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+            <input type="text" name="email" placeholder="Last Name" required />
+          </div>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+            <input type="text" name="number" placeholder="Phone Number" required />
+          </div>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-address-card"></i></span>
+            <input type="text" name="address" placeholder="Home Address" required />
+          </div>
+          <div class="row clearfix">
+            <div class="col_half">
+              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                <input type="text" name="name" placeholder="Licence ID" />
+              </div>
+            </div>
+            <div class="col_half">
+              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                <input type="text" name="name" placeholder="Vehincle No" required />
+              </div>
+            </div>
+          </div>
+          <div class="input_field radio_option">
+              <input type="radio" name="radiogroup1" id="rd1">
+              <label for="rd1">Male</label>
+              <input type="radio" name="radiogroup1" id="rd2">
+              <label for="rd2">Female</label>
+              </div>
+          <div class="input_field radio_optio">
+             <label for="rd1">DOB</label>
+              <input type="date" name="radiogroup1" id="rd">
+             
+            </div>
+            <div class="input_field radio_optio">
+             <label for="rd1">Upload Passport</label>
+              <input type="file" name="radiogroup1" id="r">
+             
+            </div>
+           
+              
+            <div class="input_field checkbox_option">
+            	<input type="checkbox" id="cb1">
+    			<label for="cb1">I agree with terms and conditions</label>
+            </div>
+            
+          <input class="button" type="submit" value="Register" />
+        </form>
+        <div class="login">
+          <a href="login.html"><p>Login here</p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
