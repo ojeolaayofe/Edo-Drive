@@ -11,7 +11,7 @@ body {
     font-family: 'Poppins', sans-serif
 }
 nav{
-    background: #FED55F;
+    background: white;
     height: 60px;
     width: 100%;
 }
@@ -39,7 +39,7 @@ label.logo{
     font-weight: bold;
 }
 .wrapper {
-    background-color: #222;
+    background-color: white;
     min-height: 100px;
     max-width: 800px;
     margin: 10px auto;
